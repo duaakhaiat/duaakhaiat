@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="Starry night header" width="100%" />
+<img src="header.svg" alt="Starry night header" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=FFE9A8&center=true&vCenter=true&width=640&lines=%E2%9C%A6+Hi+there%2C+traveler+of+the+night+sky;%E2%9C%A6+I+turn+coffee+and+curiosity+into+code;%E2%9C%A6+Building+small+things+that+shine;%E2%9C%A6+Always+learning%2C+always+exploring" alt="Typing SVG" />
 
@@ -33,7 +33,7 @@
 ## ✨ My Constellation of Skills
 
 <div align="center">
-  <img src="assets/constellation.svg" alt="Constellation of skills" width="100%" />
+  <img src="constellation.svg" alt="Constellation of skills" width="100%" />
 </div>
 
 <details>
@@ -91,6 +91,6 @@
 
 <br /><br />
 
-<img src="assets/footer.svg" alt="Starry night footer" width="100%" />
+<img src="footer.svg" alt="Starry night footer" width="100%" />
 
 </div>
