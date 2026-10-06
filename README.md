@@ -1,18 +1,56 @@
 <div align="center">
-<img src="https://komarev.com/ghpvc/?username=duaakhaiat&label=Profile+views&color=26338a&labelColor=0b1030&style=flat-square" alt="Profile views" />
-<img src="header.svg" alt="Header" width="100%" />
-<img src="chips.svg" alt="Languages" width="100%" />
-<img src="stats.svg" alt="Stats" width="100%" />
-<img src="stack.svg" alt="Stack analytics" width="100%" />
-<img src="activity.svg" alt="Activity pulse" width="100%" />
-<img src="label-deployments.svg" alt="Primary deployments" width="100%" />
-<a href="https://github.com/duaakhaiat/duaakhaiat"><img src="project-1.svg" alt="Project One" width="32%" /></a>
-<a href="https://github.com/duaakhaiat/tir-lab"><img src="project-2.svg" alt="Project Two" width="32%" /></a>
-<a href="https://github.com/duaakhaiat/DeblurLab-Interactive-Image-Deblurring"><img src="project-3.svg" alt="Project Three" width="32%" /></a>
-<img src="label-connect.svg" alt="Send a signal" width="100%" />
-<a href="https://linkedin.com/in/YOUR_HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0b1030?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
-<a href="https://twitter.com/YOUR_HANDLE"><img src="https://img.shields.io/badge/Twitter-0b1030?style=for-the-badge&logo=twitter&logoColor=1DA1F2" alt="Twitter" /></a>
-<a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-0b1030?style=for-the-badge&logo=gmail&logoColor=D14836" alt="Email" /></a>
-<a href="https://your-site.com"><img src="https://img.shields.io/badge/Portfolio-0b1030?style=for-the-badge&logo=vercel&logoColor=ffffff" alt="Portfolio" /></a>
-<img src="footer.svg" alt="Footer" width="100%" />
+
+<img src="assets/header.svg" width="100%" alt="Dua Khaiat — Web Dev / UI UX Designer — AI Engineering Student" />
+
+### Code with intention. Design with empathy.
+
+<a href="https://github.com/duaakhaiat"><img src="https://img.shields.io/badge/GitHub-duaakhaiat-11101d?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+
 </div>
+
+## About me
+
+I'm **Dua Khaiat**, a **Web Developer / UI UX Designer** and **AI Engineering Student**. I bring thoughtful interfaces and code together, exploring the space between web development, design, and artificial intelligence.
+
+## My toolkit
+
+<p align="center">
+<img src="assets/python.svg" width="42" height="42" alt="Python" title="Python" />
+<img src="assets/c.svg" width="42" height="42" alt="C" title="C" />
+<img src="assets/cpp.svg" width="42" height="42" alt="C++" title="C++" />
+<img src="assets/java.svg" width="42" height="42" alt="Java" title="Java" />
+<img src="assets/javascript.svg" width="42" height="42" alt="JavaScript" title="JavaScript" />
+<img src="assets/typescript.svg" width="42" height="42" alt="TypeScript" title="TypeScript" />
+<img src="assets/html.svg" width="42" height="42" alt="HTML" title="HTML" />
+<img src="assets/css.svg" width="42" height="42" alt="CSS" title="CSS" />
+<img src="assets/react.svg" width="42" height="42" alt="React" title="React" />
+<img src="assets/tailwindcss.svg" width="42" height="42" alt="Tailwind CSS" title="Tailwind CSS" />
+<img src="assets/postgresql.svg" width="42" height="42" alt="PostgreSQL" title="PostgreSQL" />
+<img src="assets/sqlite.svg" width="42" height="42" alt="SQLite" title="SQLite" />
+<img src="assets/github.svg" width="42" height="42" alt="GitHub" title="GitHub" />
+<img src="assets/arduino.svg" width="42" height="42" alt="Arduino" title="Arduino" />
+</p>
+
+**Languages:** Python · C · C++ · Java · JavaScript · TypeScript  
+**Web:** HTML · CSS · React · Tailwind CSS  
+**Databases & tools:** PostgreSQL · SQLite · GitHub · Arduino
+
+## GitHub statistics
+
+<!-- Public snapshot verified 2026-10-06. The workflow updates this SVG including private repository counts. -->
+<img src="assets/stats.svg" width="100%" alt="GitHub statistics" />
+
+## Activity pulse
+
+<img src="assets/activity.svg" width="100%" alt="Public GitHub contributions" />
+
+## Selected repositories
+
+- [**DeblurLab-Interactive-Image-Deblurring**](https://github.com/duaakhaiat/DeblurLab-Interactive-Image-Deblurring) · TypeScript
+- [**ray-tracing**](https://github.com/duaakhaiat/ray-tracing) · HTML
+- [**tir-lab**](https://github.com/duaakhaiat/tir-lab) · HTML
+- [**track2**](https://github.com/duaakhaiat/track2) · TypeScript
+
+---
+
+<div align="center">Building at the intersection of code, design & AI.<br /><a href="https://github.com/duaakhaiat">Let's connect on GitHub ↗</a></div>
