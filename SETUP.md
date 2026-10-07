@@ -20,4 +20,4 @@ The built-in GITHUB_TOKEN writes the generated stats file; PROFILE_TOKEN only re
 
 On your GitHub profile, above the contribution calendar, choose Contribution settings > Private contributions. GitHub displays anonymized private activity, not private repository details. The bundled activity image is a dated public snapshot, not a live or private-inclusive graph. Enable the GitHub setting for a live native profile graph.
 
-Instagram is included. No email, LinkedIn or portfolio link was supplied, so none has been invented.
+LinkedIn and Instagram are included in the profile links.
