@@ -5,6 +5,7 @@
 ### Code with intention. Design with empathy.
 
 <a href="https://github.com/duaakhaiat"><img src="https://img.shields.io/badge/GitHub-duaakhaiat-11101d?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://www.instagram.com/douaa_kht_/?hl=fr"><img src="assets/instagram.svg" width="28" height="28" alt="Instagram" title="Instagram" /></a>
 
 </div>
 
@@ -25,6 +26,10 @@ I'm **Dua Khaiat**, a **Web Developer / UI UX Designer** and **AI Engineering St
 <img src="assets/css.svg" width="42" height="42" alt="CSS" title="CSS" />
 <img src="assets/react.svg" width="42" height="42" alt="React" title="React" />
 <img src="assets/tailwindcss.svg" width="42" height="42" alt="Tailwind CSS" title="Tailwind CSS" />
+<img src="assets/nodejs.svg" width="42" height="42" alt="Node.js" title="Node.js" />
+<img src="assets/reactnative.svg" width="42" height="42" alt="React Native" title="React Native" />
+<img src="assets/electron.svg" width="42" height="42" alt="Electron.js" title="Electron.js" />
+<img src="assets/tkinter.svg" width="42" height="42" alt="Tkinter" title="Tkinter" />
 <img src="assets/postgresql.svg" width="42" height="42" alt="PostgreSQL" title="PostgreSQL" />
 <img src="assets/sqlite.svg" width="42" height="42" alt="SQLite" title="SQLite" />
 <img src="assets/github.svg" width="42" height="42" alt="GitHub" title="GitHub" />
@@ -32,7 +37,8 @@ I'm **Dua Khaiat**, a **Web Developer / UI UX Designer** and **AI Engineering St
 </p>
 
 **Languages:** Python · C · C++ · Java · JavaScript · TypeScript  
-**Web:** HTML · CSS · React · Tailwind CSS  
+**Web:** HTML · CSS · React · Tailwind CSS · Node.js  
+**Apps & desktop:** React Native · Electron.js · Tkinter  
 **Databases & tools:** PostgreSQL · SQLite · GitHub · Arduino
 
 ## GitHub statistics
