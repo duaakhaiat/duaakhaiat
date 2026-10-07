@@ -55,10 +55,16 @@ I'm **Dua Khaiat**, a **Web Developer / UI UX Designer** and **AI Engineering St
 
 ## Selected repositories
 
-- [**DeblurLab-Interactive-Image-Deblurring**](https://github.com/duaakhaiat/DeblurLab-Interactive-Image-Deblurring) · TypeScript
-- [**ray-tracing**](https://github.com/duaakhaiat/ray-tracing) · HTML
-- [**tir-lab**](https://github.com/duaakhaiat/tir-lab) · HTML
-- [**track2**](https://github.com/duaakhaiat/track2) · TypeScript
+<table align="center">
+  <tr>
+    <td><a href="https://github.com/duaakhaiat/DeblurLab-Interactive-Image-Deblurring"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=DeblurLab-Interactive-Image-Deblurring&theme=github_dark" alt="DeblurLab-Interactive-Image-Deblurring repository card" /></a><br /><img src="https://img.shields.io/github/forks/duaakhaiat/DeblurLab-Interactive-Image-Deblurring?style=flat-square&label=forks&color=8fa0dd" alt="DeblurLab forks" /></td>
+    <td><a href="https://github.com/duaakhaiat/ray-tracing"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=ray-tracing&theme=github_dark" alt="ray-tracing repository card" /></a><br /><img src="https://img.shields.io/github/forks/duaakhaiat/ray-tracing?style=flat-square&label=forks&color=8fa0dd" alt="ray-tracing forks" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/duaakhaiat/tir-lab"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=tir-lab&theme=github_dark" alt="tir-lab repository card" /></a><br /><img src="https://img.shields.io/github/forks/duaakhaiat/tir-lab?style=flat-square&label=forks&color=8fa0dd" alt="tir-lab forks" /></td>
+    <td><a href="https://github.com/duaakhaiat/track2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=track2&theme=github_dark" alt="track2 repository card" /></a><br /><img src="https://img.shields.io/github/forks/duaakhaiat/track2?style=flat-square&label=forks&color=8fa0dd" alt="track2 forks" /></td>
+  </tr>
+</table>
 
 ---
 
