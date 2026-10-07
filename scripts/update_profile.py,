@@ -69,16 +69,16 @@ def languages(repos):
 
 def build_stats(u):
     repos=u["repositories"]["nodes"]
-    vals=[(fmt(sum(r["stargazerCount"] for r in repos)),"STARS",GOLD),(fmt(sum(r["forkCount"] for r in repos)),"FORKS",CYAN),
-          (fmt(u["repositories"]["totalCount"]),"REPOS",PINK),(fmt(u["contributionsCollection"]["totalCommitContributions"]),"COMMITS",MINT)]
+    vals=[(fmt(sum(r["stargazerCount"] for r in repos)),"STARS","#9a6700"),(fmt(sum(r["forkCount"] for r in repos)),"FORKS","#0969da"),
+          (fmt(u["repositories"]["totalCount"]),"REPOS","#bf3989"),(fmt(u["contributionsCollection"]["totalCommitContributions"]),"COMMITS","#1a7f37")]
     st=[]
     for i,(v,l,c) in enumerate(vals):
         cx=125+i*250
         st.append(f'''<ellipse cx="{cx}" cy="82" rx="90" ry="34" fill="{c}" opacity=".14" filter="url(#soft)"><animate attributeName="opacity" values=".06;.22;.06" dur="{4+i}s" begin="{i*.6}s" repeatCount="indefinite"/></ellipse>
-<text x="{cx}" y="92" text-anchor="middle" font-family="{FONT}" font-size="46" font-weight="800" fill="#fff">{esc(v)}<animate attributeName="opacity" values=".8;1;.8" dur="{3+i}s" repeatCount="indefinite"/></text>
+<text x="{cx}" y="92" text-anchor="middle" font-family="{FONT}" font-size="46" font-weight="800" fill="#24292f">{esc(v)}<animate attributeName="opacity" values=".8;1;.8" dur="{3+i}s" repeatCount="indefinite"/></text>
 <text x="{cx}" y="122" text-anchor="middle" font-family="{FONT}" font-size="12" font-weight="700" letter-spacing="6" fill="{c}">{l}</text>
 <line x1="{cx-40}" y1="136" x2="{cx+40}" y2="136" stroke="{c}" stroke-opacity=".6" stroke-width="2" stroke-dasharray="80" stroke-dashoffset="80"><animate attributeName="stroke-dashoffset" values="80;0;0;80" keyTimes="0;.3;.7;1" dur="5s" begin="{i*.5}s" repeatCount="indefinite"/></line>''')
-    write("stats.svg",1000,170,f'<rect width="1000" height="170" fill="{NAVY}"/><line x1="40" y1="20" x2="960" y2="20" stroke="{BORDER}" stroke-opacity=".7"/><line x1="40" y1="150" x2="960" y2="150" stroke="{BORDER}" stroke-opacity=".7"/>{twinkles(16,1000,170,5)}{"".join(st)}')
+    write("stats.svg",1000,170,f'<rect width="1000" height="170" fill="#ffffff"/><line x1="40" y1="20" x2="960" y2="20" stroke="#d0d7de" stroke-opacity=".7"/><line x1="40" y1="150" x2="960" y2="150" stroke="#d0d7de" stroke-opacity=".7"/>{twinkles(16,1000,170,5)}{"".join(st)}')
 
 def build_stack(u):
     items=languages(u["repositories"]["nodes"]) or [("No data",100)]
@@ -109,17 +109,17 @@ def build_chips(u):
 def build_activity(u):
     cal=u["contributionsCollection"]["contributionCalendar"]; weeks=cal["weeks"][-46:]
     mx=max([d["contributionCount"] for w in weeks for d in w["contributionDays"]] or [1]) or 1
-    lv=["#15215f","#1f3d92","#2f72dc",CYAN,"#ffffff"]; random.seed(4); cells=[]
+    lv=["#ebedf0","#9be9a8","#40c463","#30a14e","#216e39"]; random.seed(4); cells=[]
     for c,w in enumerate(weeks):
         for r,d in enumerate(w["contributionDays"]):
             n=d["contributionCount"]; k=0 if n==0 else min(4,max(1,-(-n*4//mx)))
             x=40+c*20; y=70+r*20; an=""
             if k>=2 and random.random()<.5: an=f'<animate attributeName="opacity" values="1;.35;1" dur="{random.uniform(2,5):.1f}s" begin="{random.uniform(0,4):.1f}s" repeatCount="indefinite"/>'
             cells.append(f'<rect x="{x}" y="{y}" width="16" height="16" rx="3" fill="{lv[k]}">{an}</rect>')
-    write("activity.svg",1000,250,f'''<rect width="1000" height="250" fill="{NAVY}"/>
+    write("activity.svg",1000,250,f'''<rect width="1000" height="250" fill="#ffffff"/>
 <defs><linearGradient id="wave" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{CYAN}" stop-opacity="0"/><stop offset=".5" stop-color="{CYAN}" stop-opacity=".45"/><stop offset="1" stop-color="{CYAN}" stop-opacity="0"/></linearGradient><clipPath id="grid"><rect x="36" y="66" width="928" height="156" rx="6"/></clipPath></defs>
-<text x="40" y="40" font-family="{FONT}" font-size="13" font-weight="700" letter-spacing="6" fill="{CYAN}">ACTIVITY PULSE</text>
-<text x="960" y="40" text-anchor="end" font-family="{FONT}" font-size="12" font-weight="700" fill="{GOLD}">{cal["totalContributions"]} contributions</text>
+<text x="40" y="40" font-family="{FONT}" font-size="13" font-weight="700" letter-spacing="6" fill="#0969da">ACTIVITY PULSE</text>
+<text x="960" y="40" text-anchor="end" font-family="{FONT}" font-size="12" font-weight="700" fill="#57606a">{cal["totalContributions"]} contributions</text>
 {"".join(cells)}<g clip-path="url(#grid)"><rect x="-120" y="66" width="120" height="156" fill="url(#wave)"><animate attributeName="x" values="-120;1000" dur="6s" repeatCount="indefinite"/></rect></g>''')
 
 def build_cards(u):

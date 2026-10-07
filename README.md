@@ -13,7 +13,7 @@
 
 I'm **Dua Khaiat**, a **Web Developer / UI UX Designer** and **AI Engineering Student**. I bring thoughtful interfaces and code together, exploring the space between web development, design, and artificial intelligence.
 
-<p align="center"><img src="assets/about-me.gif" width="480" alt="Animated image" /></p>
+<p align="center"><img src="assets/about-me.gif" width="360" alt="Animated laptop illustration" /></p>
 
 ## My toolkit
 
@@ -57,12 +57,12 @@ I'm **Dua Khaiat**, a **Web Developer / UI UX Designer** and **AI Engineering St
 
 <table align="center">
   <tr>
-    <td><a href="https://github.com/duaakhaiat/DeblurLab-Interactive-Image-Deblurring"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=DeblurLab-Interactive-Image-Deblurring&theme=github_dark" alt="DeblurLab-Interactive-Image-Deblurring repository card" /></a><br /><img src="https://img.shields.io/github/forks/duaakhaiat/DeblurLab-Interactive-Image-Deblurring?style=flat-square&label=forks&color=8fa0dd" alt="DeblurLab forks" /></td>
-    <td><a href="https://github.com/duaakhaiat/ray-tracing"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=ray-tracing&theme=github_dark" alt="ray-tracing repository card" /></a><br /><img src="https://img.shields.io/github/forks/duaakhaiat/ray-tracing?style=flat-square&label=forks&color=8fa0dd" alt="ray-tracing forks" /></td>
+    <td><a href="https://github.com/duaakhaiat/DeblurLab-Interactive-Image-Deblurring"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=DeblurLab-Interactive-Image-Deblurring&bg_color=ffffff&title_color=0969DA&text_color=24292F&icon_color=57606A&hide_border=true" alt="DeblurLab-Interactive-Image-Deblurring repository card" /></a><br /><sub>Interactive image restoration with blur simulation and Wiener deconvolution.</sub></td>
+    <td><a href="https://github.com/duaakhaiat/ray-tracing"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=ray-tracing&bg_color=ffffff&title_color=0969DA&text_color=24292F&icon_color=57606A&hide_border=true" alt="ray-tracing repository card" /></a><br /><sub>Explore 3D light refraction, Snell's law, Fresnel reflection, and total internal reflection.</sub></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/duaakhaiat/tir-lab"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=tir-lab&theme=github_dark" alt="tir-lab repository card" /></a><br /><img src="https://img.shields.io/github/forks/duaakhaiat/tir-lab?style=flat-square&label=forks&color=8fa0dd" alt="tir-lab forks" /></td>
-    <td><a href="https://github.com/duaakhaiat/track2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=track2&theme=github_dark" alt="track2 repository card" /></a><br /><img src="https://img.shields.io/github/forks/duaakhaiat/track2?style=flat-square&label=forks&color=8fa0dd" alt="track2 forks" /></td>
+    <td><a href="https://github.com/duaakhaiat/tir-lab"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=tir-lab&bg_color=ffffff&title_color=0969DA&text_color=24292F&icon_color=57606A&hide_border=true" alt="tir-lab repository card" /></a><br /><sub>An interactive optics lab for total internal reflection and refractive-index exploration.</sub></td>
+    <td><a href="https://github.com/duaakhaiat/track2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=track2&bg_color=ffffff&title_color=0969DA&text_color=24292F&icon_color=57606A&hide_border=true" alt="track2 repository card" /></a><br /><sub>A TypeScript monorepo for API tools, shared packages, UI experiments, and a browser game.</sub></td>
   </tr>
 </table>
 
