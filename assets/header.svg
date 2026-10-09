@@ -8,9 +8,24 @@
       <stop stop-color="#68d6e6" />
       <stop offset="1" stop-color="#a68cf5" />
     </linearGradient>
+    <clipPath id="name-reveal" clipPathUnits="userSpaceOnUse">
+      <rect x="290" y="82" width="0" height="82">
+        <animate attributeName="width" from="0" to="420" dur="2s" begin=".3s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="role-reveal" clipPathUnits="userSpaceOnUse">
+      <rect x="320" y="166" width="0" height="36">
+        <animate attributeName="width" from="0" to="360" dur="1.7s" begin="1.2s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="student-reveal" clipPathUnits="userSpaceOnUse">
+      <rect x="340" y="205" width="0" height="30">
+        <animate attributeName="width" from="0" to="320" dur="1.6s" begin="2s" fill="freeze" />
+      </rect>
+    </clipPath>
   </defs>
   <path d="M32 55V32H55M945 32h23v23M32 245v23h23M945 268h23v-23" fill="none" stroke="url(#line)" stroke-width="2" />
-  <text x="500" y="148" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="60" font-weight="bold">Dua Khaiat</text>
-  <text x="500" y="193" text-anchor="middle" fill="#c9d1d9" font-family="monospace" font-size="18">WEB DEV / UI UX DESIGNER</text>
-  <text x="500" y="228" text-anchor="middle" fill="#c9d1d9" font-family="monospace" font-size="13" letter-spacing="3">AI ENGINEERING STUDENT</text>
+  <text x="500" y="148" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="60" font-weight="bold" clip-path="url(#name-reveal)">Dua Khaiat</text>
+  <text x="500" y="193" text-anchor="middle" fill="#c9d1d9" font-family="monospace" font-size="18" clip-path="url(#role-reveal)">WEB DEV / UI UX DESIGNER</text>
+  <text x="500" y="228" text-anchor="middle" fill="#c9d1d9" font-family="monospace" font-size="13" letter-spacing="3" clip-path="url(#student-reveal)">AI ENGINEERING STUDENT</text>
 </svg>
