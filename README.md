@@ -19,32 +19,7 @@ I'm **Dua Khaiat**, a **Web Developer / UI UX Designer** and **AI Engineering St
 
 ## ⌘ My toolkit
 
-<table align="center">
-  <tr>
-    <td align="center"><img src="assets/python.svg" width="42" height="42" alt="Python" /><br />Python</td>
-    <td align="center"><img src="assets/c.svg" width="42" height="42" alt="C" /><br />C</td>
-    <td align="center"><img src="assets/cpp.svg" width="42" height="42" alt="C++" /><br />C++</td>
-    <td align="center"><img src="assets/java.svg" width="42" height="42" alt="Java" /><br />Java</td>
-    <td align="center"><img src="assets/javascript.svg" width="42" height="42" alt="JavaScript" /><br />JavaScript</td>
-    <td align="center"><img src="assets/typescript.svg" width="42" height="42" alt="TypeScript" /><br />TypeScript</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="assets/html.svg" width="42" height="42" alt="HTML" /><br />HTML</td>
-    <td align="center"><img src="assets/css.svg" width="42" height="42" alt="CSS" /><br />CSS</td>
-    <td align="center"><img src="assets/react.svg" width="42" height="42" alt="React" /><br />React</td>
-    <td align="center"><img src="assets/tailwindcss.svg" width="42" height="42" alt="Tailwind CSS" /><br />Tailwind CSS</td>
-    <td align="center"><img src="assets/nodejs.svg" width="42" height="42" alt="Node.js" /><br />Node.js</td>
-    <td align="center"><img src="assets/reactnative.svg" width="42" height="42" alt="React Native" /><br />React Native</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="assets/electron.svg" width="42" height="42" alt="Electron.js" /><br />Electron.js</td>
-    <td align="center"><img src="assets/tkinter.svg" width="42" height="42" alt="Tkinter" /><br />Tkinter</td>
-    <td align="center"><img src="assets/postgresql.svg" width="42" height="42" alt="PostgreSQL" /><br />PostgreSQL</td>
-    <td align="center"><img src="assets/sqlite.svg" width="42" height="42" alt="SQLite" /><br />SQLite</td>
-    <td align="center"><img src="assets/github.svg" width="42" height="42" alt="GitHub" /><br />GitHub</td>
-    <td align="center"><img src="assets/arduino.svg" width="42" height="42" alt="Arduino" /><br />Arduino</td>
-  </tr>
-</table>
+<p align="center"><img src="assets/toolkit.svg" width="100%" alt="Animated toolkit: Python, C, C++, Java, JavaScript, TypeScript, HTML, CSS, React, Tailwind CSS, Node.js, React Native, Electron.js, Tkinter, PostgreSQL, SQLite, GitHub, and Arduino" /></p>
 
 <p align="center"><img src="assets/section-divider.svg" width="100%" alt="" /></p>
 
@@ -63,14 +38,16 @@ I'm **Dua Khaiat**, a **Web Developer / UI UX Designer** and **AI Engineering St
 
 ## ↗ Selected repositories
 
+<p align="center"><sub>Small experiments, thoughtful interfaces, and a little bit of physics.</sub></p>
+
 <table align="center">
   <tr>
-    <td><a href="https://github.com/duaakhaiat/DeblurLab-Interactive-Image-Deblurring"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=DeblurLab-Interactive-Image-Deblurring&bg_color=f6f8fa&title_color=0969DA&text_color=24292F&icon_color=22A6B3&hide_border=true" alt="DeblurLab-Interactive-Image-Deblurring repository card" /></a><br /><sub>Interactive image restoration with blur simulation and Wiener deconvolution.</sub></td>
-    <td><a href="https://github.com/duaakhaiat/ray-tracing"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=ray-tracing&bg_color=f6f8fa&title_color=0969DA&text_color=24292F&icon_color=22A6B3&hide_border=true" alt="ray-tracing repository card" /></a><br /><sub>Explore 3D light refraction, Snell's law, Fresnel reflection, and total internal reflection.</sub></td>
+    <td><a href="https://github.com/duaakhaiat/DeblurLab-Interactive-Image-Deblurring"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=DeblurLab-Interactive-Image-Deblurring&theme=github_dark&bg_color=0b1020&title_color=71ddff&text_color=d5d9eb&icon_color=a78bfa&border_color=293452" alt="DeblurLab-Interactive-Image-Deblurring repository card" /></a><br /><sub>Interactive image restoration with blur simulation and Wiener deconvolution.</sub></td>
+    <td><a href="https://github.com/duaakhaiat/ray-tracing"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=ray-tracing&theme=github_dark&bg_color=0b1020&title_color=71ddff&text_color=d5d9eb&icon_color=a78bfa&border_color=293452" alt="ray-tracing repository card" /></a><br /><sub>Explore 3D light refraction, Snell's law, Fresnel reflection, and total internal reflection.</sub></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/duaakhaiat/tir-lab"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=tir-lab&bg_color=f6f8fa&title_color=0969DA&text_color=24292F&icon_color=22A6B3&hide_border=true" alt="tir-lab repository card" /></a><br /><sub>An interactive optics lab for total internal reflection and refractive-index exploration.</sub></td>
-    <td><a href="https://github.com/duaakhaiat/track2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=track2&bg_color=f6f8fa&title_color=0969DA&text_color=24292F&icon_color=22A6B3&hide_border=true" alt="track2 repository card" /></a><br /><sub>A TypeScript monorepo for API tools, shared packages, UI experiments, and a browser game.</sub></td>
+    <td><a href="https://github.com/duaakhaiat/tir-lab"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=tir-lab&theme=github_dark&bg_color=0b1020&title_color=71ddff&text_color=d5d9eb&icon_color=a78bfa&border_color=293452" alt="tir-lab repository card" /></a><br /><sub>An interactive optics lab for total internal reflection and refractive-index exploration.</sub></td>
+    <td><a href="https://github.com/duaakhaiat/track2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=track2&theme=github_dark&bg_color=0b1020&title_color=71ddff&text_color=d5d9eb&icon_color=a78bfa&border_color=293452" alt="track2 repository card" /></a><br /><sub>A TypeScript monorepo for API tools, shared packages, UI experiments, and a browser game.</sub></td>
   </tr>
 </table>
 

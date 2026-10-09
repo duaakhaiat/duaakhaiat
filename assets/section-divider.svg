@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="28" viewBox="0 0 1000 28" role="img" aria-labelledby="title">
-  <title id="title">Animated blue and violet section divider</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="36" viewBox="0 0 1000 36" role="img" aria-labelledby="title">
+  <title id="title">Animated cyan and violet section divider</title>
   <defs>
     <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#58c4dd" stop-opacity="0" />
@@ -14,12 +14,18 @@
       <stop offset="1" stop-color="#71ddff" stop-opacity="0" />
     </linearGradient>
   </defs>
-  <path d="M0 14H1000" fill="none" stroke="url(#line)" stroke-width="1" />
-  <path d="M0 14H180" fill="none" stroke="url(#pulse)" stroke-width="2" stroke-linecap="round">
-    <animate attributeName="transform" type="translate" values="0 0;820 0;0 0" dur="9s" repeatCount="indefinite" />
+  <path d="M0 18H1000" fill="none" stroke="url(#line)" stroke-width="1" />
+  <path d="M0 18H180" fill="none" stroke="url(#pulse)" stroke-width="2.5" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="translate" values="0 0;820 0;0 0" dur="8s" repeatCount="indefinite" />
   </path>
-  <circle cx="500" cy="14" r="3" fill="#71ddff">
-    <animate attributeName="opacity" values="0.25;0.8;0.25" dur="3s" repeatCount="indefinite" />
-    <animate attributeName="r" values="2;3.5;2" dur="3s" repeatCount="indefinite" />
+  <circle cx="500" cy="18" r="3" fill="#71ddff">
+    <animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.8s" repeatCount="indefinite" />
+    <animate attributeName="r" values="2;4;2" dur="2.8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="130" cy="18" r="2" fill="#a78bfa">
+    <animate attributeName="opacity" values="0.15;0.8;0.15" dur="3.6s" begin="0.7s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="870" cy="18" r="2" fill="#71ddff">
+    <animate attributeName="opacity" values="0.8;0.15;0.8" dur="4s" begin="0.3s" repeatCount="indefinite" />
   </circle>
 </svg>

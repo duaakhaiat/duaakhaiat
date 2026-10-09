@@ -14,10 +14,22 @@ while True:
         break
     page += 1
 values = [(len(repos), 'REPOSITORIES'), (sum(r['private'] for r in repos), 'PRIVATE REPOS'), (sum(r['stargazers_count'] for r in repos), 'STARS'), (sum(r['forks_count'] for r in repos), 'FORKS')]
-parts = ['<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="160" viewBox="0 0 1000 160"><rect width="1000" height="160" rx="8" fill="#ffffff"/>']
+colors = ['#71ddff', '#a78bfa', '#f0abfc', '#57e0bd']
+parts = [
+    '<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="180" viewBox="0 0 1000 180">',
+    '<rect width="1000" height="180" rx="18" fill="#0b1020" stroke="#293452"/>',
+    '<text x="500" y="26" text-anchor="middle" fill="#aeb7d4" font-family="monospace" font-size="10" letter-spacing="3">GITHUB SNAPSHOT</text>',
+]
 for i, (value, label) in enumerate(values):
-    x = 125 + i * 250
-    parts.append(f'<text x="{x}" y="72" text-anchor="middle" fill="#24292f" font-family="Arial" font-size="38" font-weight="bold">{value}</text><text x="{x}" y="106" text-anchor="middle" fill="#0969da" font-family="monospace" font-size="12" letter-spacing="2">{label}</text>')
-parts.append(f'<text x="500" y="143" text-anchor="middle" fill="#57606a" font-family="monospace" font-size="10">Authorized repository scope · updated {datetime.date.today().isoformat()}</text></svg>')
+    x = 20 + i * 245
+    color = colors[i]
+    parts.append(
+        f'<rect x="{x}" y="40" width="230" height="94" rx="14" fill="#111a35" stroke="#293452"/>'
+        f'<rect x="{x + 1}" y="41" width="228" height="2" rx="1" fill="{color}" opacity=".7">'
+        f'<animate attributeName="opacity" values=".25;.85;.25" dur="4s" begin="{i * 0.45}s" repeatCount="indefinite"/></rect>'
+        f'<text x="{x + 115}" y="91" text-anchor="middle" fill="#f8fafc" font-family="Arial" font-size="34" font-weight="bold">{value}</text>'
+        f'<text x="{x + 115}" y="116" text-anchor="middle" fill="{color}" font-family="monospace" font-size="10" letter-spacing="1.5">{label}</text>'
+    )
+parts.append(f'<text x="500" y="160" text-anchor="middle" fill="#7f8aaa" font-family="monospace" font-size="10">Authorized repository scope · updated {datetime.date.today().isoformat()}</text></svg>')
 Path('assets').mkdir(exist_ok=True)
 Path('assets/stats.svg').write_text(''.join(parts))
