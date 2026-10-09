@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="190" viewBox="0 0 480 190" role="img" aria-labelledby="title description">
+  <title id="title">TIR Lab</title>
+  <desc id="description">Interactive optics lab for total internal reflection and refractive-index exploration.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#0969da" />
+      <stop offset=".55" stop-color="#8250df" />
+      <stop offset="1" stop-color="#bf3989" />
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="478" height="188" rx="16" fill="#ffffff" stroke="#d0d7de" />
+  <path d="M17 2H463" stroke="url(#edge)" stroke-width="3" stroke-linecap="round">
+    <animate attributeName="opacity" values=".35;1;.35" dur="4s" begin=".8s" repeatCount="indefinite" />
+  </path>
+  <g transform="translate(24 35)">
+    <rect width="54" height="54" rx="15" fill="#e8f7ef" />
+    <path d="M11 27h32" stroke="#9aa4ae" stroke-width="2" />
+    <path d="M15 43 27 27 39 12" fill="none" stroke="#0969da" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M27 27 39 43" fill="none" stroke="#1a7f37" stroke-width="2.5" stroke-linecap="round">
+      <animate attributeName="opacity" values=".35;1;.35" dur="2.6s" repeatCount="indefinite" />
+    </path>
+    <circle cx="27" cy="27" r="3" fill="#8250df" />
+  </g>
+  <text x="96" y="52" fill="#57606a" font-family="monospace" font-size="10" letter-spacing="2">INTERACTIVE OPTICS LAB</text>
+  <text x="96" y="83" fill="#24292f" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">TIR Lab</text>
+  <text x="96" y="111" fill="#57606a" font-family="Arial, Helvetica, sans-serif" font-size="13">Total internal reflection + refractive index</text>
+  <path d="M24 139H456" stroke="#d8dee4" />
+  <text x="24" y="164" fill="#0969da" font-family="monospace" font-size="11">OPEN REPOSITORY</text>
+  <path d="M431 158h20m-8-8 8 8-8 8" fill="none" stroke="#8250df" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <animateTransform attributeName="transform" type="translate" values="0 0;3 0;0 0" dur="1.8s" begin=".6s" repeatCount="indefinite" />
+  </path>
+</svg>

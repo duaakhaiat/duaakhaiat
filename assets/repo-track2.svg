@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="190" viewBox="0 0 480 190" role="img" aria-labelledby="title description">
+  <title id="title">Track2</title>
+  <desc id="description">TypeScript monorepo with API tools, shared packages, UI experiments, and a browser game.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#0969da" />
+      <stop offset=".55" stop-color="#8250df" />
+      <stop offset="1" stop-color="#bf3989" />
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="478" height="188" rx="16" fill="#ffffff" stroke="#d0d7de" />
+  <path d="M17 2H463" stroke="url(#edge)" stroke-width="3" stroke-linecap="round">
+    <animate attributeName="opacity" values=".35;1;.35" dur="4s" begin="1.2s" repeatCount="indefinite" />
+  </path>
+  <g transform="translate(24 35)">
+    <rect width="54" height="54" rx="15" fill="#ddf4ff" />
+    <rect x="12" y="13" width="30" height="28" rx="5" fill="none" stroke="#0969da" stroke-width="2" />
+    <path d="m22 22-5 5 5 5m10-10 5 5-5 5m-3-12-4 14" fill="none" stroke="#8250df" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="opacity" values=".55;1;.55" dur="2.8s" repeatCount="indefinite" />
+    </path>
+  </g>
+  <text x="96" y="52" fill="#57606a" font-family="monospace" font-size="10" letter-spacing="2">TYPESCRIPT MONOREPO</text>
+  <text x="96" y="83" fill="#24292f" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Track2</text>
+  <text x="96" y="111" fill="#57606a" font-family="Arial, Helvetica, sans-serif" font-size="13">APIs, shared packages, UI + browser game</text>
+  <path d="M24 139H456" stroke="#d8dee4" />
+  <text x="24" y="164" fill="#0969da" font-family="monospace" font-size="11">OPEN REPOSITORY</text>
+  <path d="M431 158h20m-8-8 8 8-8 8" fill="none" stroke="#8250df" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <animateTransform attributeName="transform" type="translate" values="0 0;3 0;0 0" dur="1.8s" begin=".9s" repeatCount="indefinite" />
+  </path>
+</svg>

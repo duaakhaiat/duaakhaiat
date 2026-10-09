@@ -19,7 +19,7 @@ I'm **Dua Khaiat**, a **Web Developer / UI UX Designer** and **AI Engineering St
 
 ## ⌘ My toolkit
 
-<p align="center"><img src="assets/toolkit.svg" width="100%" alt="Animated toolkit: Python, C, C++, Java, JavaScript, TypeScript, HTML, CSS, React, Tailwind CSS, Node.js, React Native, Electron.js, Tkinter, PostgreSQL, SQLite, GitHub, and Arduino" /></p>
+<p align="center"><img src="assets/toolkit.svg" width="100%" alt="Animated technology logos for Python, C, C++, Java, JavaScript, TypeScript, HTML, CSS, React, Tailwind CSS, Node.js, React Native, Electron.js, Tkinter, PostgreSQL, SQLite, GitHub, and Arduino" /></p>
 
 <p align="center"><img src="assets/section-divider.svg" width="100%" alt="" /></p>
 
@@ -42,12 +42,12 @@ I'm **Dua Khaiat**, a **Web Developer / UI UX Designer** and **AI Engineering St
 
 <table align="center">
   <tr>
-    <td><a href="https://github.com/duaakhaiat/DeblurLab-Interactive-Image-Deblurring"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=DeblurLab-Interactive-Image-Deblurring&theme=github_dark&bg_color=0b1020&title_color=71ddff&text_color=d5d9eb&icon_color=a78bfa&border_color=293452" alt="DeblurLab-Interactive-Image-Deblurring repository card" /></a><br /><sub>Interactive image restoration with blur simulation and Wiener deconvolution.</sub></td>
-    <td><a href="https://github.com/duaakhaiat/ray-tracing"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=ray-tracing&theme=github_dark&bg_color=0b1020&title_color=71ddff&text_color=d5d9eb&icon_color=a78bfa&border_color=293452" alt="ray-tracing repository card" /></a><br /><sub>Explore 3D light refraction, Snell's law, Fresnel reflection, and total internal reflection.</sub></td>
+    <td><a href="https://github.com/duaakhaiat/DeblurLab-Interactive-Image-Deblurring"><img src="assets/repo-deblurlab.svg" width="100%" alt="DeblurLab — image restoration with blur simulation and Wiener deconvolution" /></a></td>
+    <td><a href="https://github.com/duaakhaiat/ray-tracing"><img src="assets/repo-ray-tracing.svg" width="100%" alt="Ray tracing — explore 3D light refraction and reflection" /></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/duaakhaiat/tir-lab"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=tir-lab&theme=github_dark&bg_color=0b1020&title_color=71ddff&text_color=d5d9eb&icon_color=a78bfa&border_color=293452" alt="tir-lab repository card" /></a><br /><sub>An interactive optics lab for total internal reflection and refractive-index exploration.</sub></td>
-    <td><a href="https://github.com/duaakhaiat/track2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duaakhaiat&repo=track2&theme=github_dark&bg_color=0b1020&title_color=71ddff&text_color=d5d9eb&icon_color=a78bfa&border_color=293452" alt="track2 repository card" /></a><br /><sub>A TypeScript monorepo for API tools, shared packages, UI experiments, and a browser game.</sub></td>
+    <td><a href="https://github.com/duaakhaiat/tir-lab"><img src="assets/repo-tir-lab.svg" width="100%" alt="TIR Lab — interactive optics lab for total internal reflection" /></a></td>
+    <td><a href="https://github.com/duaakhaiat/track2"><img src="assets/repo-track2.svg" width="100%" alt="Track2 — TypeScript monorepo for APIs, shared packages, UI, and a browser game" /></a></td>
   </tr>
 </table>
 
