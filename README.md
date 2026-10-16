@@ -19,7 +19,7 @@ I'm **Dua Khaiat**, a **Web Developer / UI UX Designer** and **AI Engineering St
 
 ## ⌘ My toolkit
 
-<p align="center"><img src="assets/toolkit.svg" width="100%" alt="Animated technology logos for Python, C, C++, Java, JavaScript, TypeScript, HTML, CSS, React, Tailwind CSS, Node.js, React Native, Electron.js, Tkinter, PostgreSQL, SQLite, GitHub, and Arduino" /></p>
+<p align="center"><img src="assets/toolkit.svg" width="100%" alt="Animated icon-only toolkit featuring Python, C, C++, Java, JavaScript, TypeScript, HTML, CSS, React, Tailwind CSS, Node.js, React Native, Electron.js, Tkinter, PostgreSQL, SQLite, GitHub, and Arduino" /></p>
 
 <p align="center"><img src="assets/section-divider.svg" width="100%" alt="" /></p>
 
