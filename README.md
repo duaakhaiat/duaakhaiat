@@ -32,7 +32,7 @@ I'm **Dua Khaiat**, a **Web Developer / UI UX Designer** and **AI Engineering St
 
 ## ✦ Activity pulse
 
-<img src="assets/activity.svg" width="100%" alt="Public GitHub contributions" />
+<img src="assets/activity.svg" width="100%" alt="Public GitHub contributions in an animated underwater scene with swimming fish" />
 
 <p align="center"><img src="assets/section-divider.svg" width="100%" alt="" /></p>
 

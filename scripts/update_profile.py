@@ -109,18 +109,30 @@ def build_chips(u):
 def build_activity(u):
     cal=u["contributionsCollection"]["contributionCalendar"]; weeks=cal["weeks"][-46:]
     mx=max([d["contributionCount"] for w in weeks for d in w["contributionDays"]] or [1]) or 1
-    lv=["#ebedf0","#9be9a8","#40c463","#30a14e","#216e39"]; random.seed(4); cells=[]
+    lv=["#ebedf0","#c6d2ee","#8599c9","#435a96","#0b1030"]; random.seed(4); cells=[]
     for c,w in enumerate(weeks):
         for r,d in enumerate(w["contributionDays"]):
             n=d["contributionCount"]; k=0 if n==0 else min(4,max(1,-(-n*4//mx)))
             x=40+c*20; y=70+r*20; an=""
             if k>=2 and random.random()<.5: an=f'<animate attributeName="opacity" values="1;.35;1" dur="{random.uniform(2,5):.1f}s" begin="{random.uniform(0,4):.1f}s" repeatCount="indefinite"/>'
             cells.append(f'<rect x="{x}" y="{y}" width="16" height="16" rx="3" fill="{lv[k]}">{an}</rect>')
-    write("activity.svg",1000,250,f'''<rect width="1000" height="250" fill="#ffffff"/>
-<defs><linearGradient id="wave" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{CYAN}" stop-opacity="0"/><stop offset=".5" stop-color="{CYAN}" stop-opacity=".45"/><stop offset="1" stop-color="{CYAN}" stop-opacity="0"/></linearGradient><clipPath id="grid"><rect x="36" y="66" width="928" height="156" rx="6"/></clipPath></defs>
+    fish='''<path d="M-18 0 C-9-10 8-10 18 0 C8 10-9 10-18 0Z" fill="#0969da"/>
+<g><animateTransform attributeName="transform" type="rotate" values="0 -16 0;22 -16 0;0 -16 0;-22 -16 0;0 -16 0" dur=".65s" repeatCount="indefinite"/><path d="M-16 0 -27-8 -27 8Z" fill="#0969da"/></g>
+<path d="M-2 0 Q3 3 7 0" fill="none" stroke="#75c3ff" stroke-width="2" stroke-linecap="round"><animate attributeName="d" values="M-2 0 Q3 3 7 0;M-2 0 Q3 -3 7 0;M-2 0 Q3 3 7 0" dur=".65s" repeatCount="indefinite"/></path>
+<circle cx="10" cy="-2" r="1.5" fill="#ffffff"/>'''
+    write("activity.svg",1000,280,f'''<defs>
+<linearGradient id="wave" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{CYAN}" stop-opacity="0"/><stop offset=".5" stop-color="{CYAN}" stop-opacity=".4"/><stop offset="1" stop-color="{CYAN}" stop-opacity="0"/></linearGradient>
+<clipPath id="grid"><rect x="36" y="66" width="928" height="156" rx="8"/></clipPath></defs>
+<rect width="1000" height="280" rx="8" fill="#ffffff" stroke="#d0d7de"/>
 <text x="40" y="40" font-family="{FONT}" font-size="13" font-weight="700" letter-spacing="6" fill="#0969da">ACTIVITY PULSE</text>
 <text x="960" y="40" text-anchor="end" font-family="{FONT}" font-size="12" font-weight="700" fill="#57606a">{cal["totalContributions"]} contributions</text>
-{"".join(cells)}<g clip-path="url(#grid)"><rect x="-120" y="66" width="120" height="156" fill="url(#wave)"><animate attributeName="x" values="-120;1000" dur="6s" repeatCount="indefinite"/></rect></g>''')
+{"".join(cells)}
+<g clip-path="url(#grid)"><rect x="-120" y="66" width="120" height="156" fill="url(#wave)"><animate attributeName="x" values="-120;1000" dur="7s" repeatCount="indefinite"/></rect></g>
+<g opacity=".9"><animateTransform attributeName="transform" type="translate" values="-32 96;1032 96" dur="22s" repeatCount="indefinite"/>{fish}</g>
+<g opacity=".68"><animateTransform attributeName="transform" type="translate" values="-32 136;1032 136" dur="28s" begin="-9s" repeatCount="indefinite"/><g transform="scale(.75 .75)">{fish}</g></g>
+<g opacity=".82"><animateTransform attributeName="transform" type="translate" values="-32 176;1032 176" dur="25s" begin="-14s" repeatCount="indefinite"/><g transform="scale(.62 .62)">{fish}</g></g>
+<path d="M24 234 Q74 224 124 234 T224 234 T324 234 T424 234 T524 234 T624 234 T724 234 T824 234 T924 234 T1024 234" fill="none" stroke="{CYAN}" stroke-opacity=".35" stroke-width="2"/>
+<g fill="none" stroke="{CYAN}" stroke-opacity=".5"><circle cx="86" cy="258" r="3"><animate attributeName="cy" values="258;242;258" dur="3s" repeatCount="indefinite"/></circle><circle cx="886" cy="258" r="2"><animate attributeName="cy" values="258;246;258" dur="2.4s" begin=".8s" repeatCount="indefinite"/></circle></g>''')
 
 def build_cards(u):
     cards=[r for r in u["pinnedItems"]["nodes"] if r][:3]
