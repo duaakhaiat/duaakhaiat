@@ -2,6 +2,8 @@
 
 <img src="assets/header.svg" width="100%" alt="Dua Khaiat — Web Dev / UI UX Designer — AI Engineering Student" />
 
+<img src="https://komarev.com/ghpvc/?username=duaakhaiat&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+
 ### Code with intention. Design with empathy.
 
 <a href="https://www.linkedin.com/in/douaa-khaiat-1bb12b326/?isSelfProfile=true"><img src="assets/linkedin.svg" width="28" height="28" alt="LinkedIn" title="LinkedIn" /></a>
